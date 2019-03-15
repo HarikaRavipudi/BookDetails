@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:textColor="#B63A3A"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#144986"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:textColor="#B63A3A"
+        />
+
+    <TextView
+        android:id="@+id/textauthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#144986"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:textColor="#B63A3A"
+        />
+
+
+    <ImageView
+        android:id="@+id/bookimage"
+        android:layout_width="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_height="200dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#B63A3A"
+        />
+
+
+    <TextView
+        android:id="@+id/txtdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#144986"/>
+
+</LinearLayout>
